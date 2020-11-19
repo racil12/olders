@@ -13,6 +13,7 @@
 		C2C5E32C25659EC600B9211E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C5E32B25659EC600B9211E /* Preview Assets.xcassets */; };
 		C2C5E33725659EC600B9211E /* MiniProjetappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5E33625659EC600B9211E /* MiniProjetappTests.swift */; };
 		C2C5E34225659EC700B9211E /* MiniProjetappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5E34125659EC700B9211E /* MiniProjetappUITests.swift */; };
+		C2C5E3532565B0DC00B9211E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5E3522565B0DC00B9211E /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C2C5E33D25659EC700B9211E /* MiniProjetappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProjetappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C5E34125659EC700B9211E /* MiniProjetappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjetappUITests.swift; sourceTree = "<group>"; };
 		C2C5E34325659EC700B9211E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C5E3522565B0DC00B9211E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				C2C5E32625659EC600B9211E /* ContentView.swift */,
 				C2C5E32825659EC600B9211E /* Assets.xcassets */,
 				C2C5E32D25659EC600B9211E /* Info.plist */,
+				C2C5E3522565B0DC00B9211E /* SignInView.swift */,
 				C2C5E32A25659EC600B9211E /* Preview Content */,
 			);
 			path = MiniProjetapp;
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C5E3532565B0DC00B9211E /* SignInView.swift in Sources */,
 				C2C5E32725659EC600B9211E /* ContentView.swift in Sources */,
 				C2C5E32525659EC600B9211E /* MiniProjetappApp.swift in Sources */,
 			);
